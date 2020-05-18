@@ -1,0 +1,31 @@
+{
+    "name": "fryiee/kube_accordion_block-extension",
+    "type": "streams-addon",
+    "description": "Display content within collapsible accordions scaffolded with Kube.",
+    "keywords": [
+        "streams addon",
+        "block type",
+        "blocks"
+    ],
+    "homepage": "http://craigberry.co/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Craig Berry",
+            "email": "hi@craigberry.co",
+            "homepage": "http://craigberry.co/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "hi@craigberry.co"
+    },
+    "require": {
+        "anomaly/blocks-module": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fryiee\\KubeAccordionBlockExtension\\": "src/"
+        }
+    }
+}
