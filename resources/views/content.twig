@@ -2,7 +2,7 @@
     {% for section in block.sections %}
         <div class="accordion__section">
             <h4 class="accordion__section__title">
-                <a href="#" data-name="toggle-accordion__section" data-kube="toggle" data-target="#accordion__section__content--{{ section.id }}">
+                <a href="#" data-name="toggle-accordion__section--{{ section.id }}" data-kube="toggle" data-target="#accordion__section__content--{{ section.id }}">
                     {{ section.title }}
                 </a>
             </h4>
